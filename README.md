@@ -1,4 +1,5 @@
-![GWO Image](https://github.com/DanialSoleimany/EEG-Channel-Selection-BGWO/raw/main/GWO.jpg)
+![GWO Image](https://github.com/DanialSoleimany/EEG-Channel-Selection-BGWO/raw/main/GWO.jpg | width=200)
+
 
 **Title:**
 - Enhancing Person Identification Accuracy through Optimal EEG Channel Selection using Binary Grey Wolf Algorithm
