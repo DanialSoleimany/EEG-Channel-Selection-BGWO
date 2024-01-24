@@ -1,13 +1,19 @@
 1. **Project Title**
-Enhancing Person Identification via EEG Channel Selection Utilizing Binary Grey Wolf Optimization Algorithm
+   - **Enhancing Person Identification through EEG Channel Selection using Binary Grey Wolf Optimization Algorithm**
 
 2. **Project Description**
-The project is an implementation of a Binary Grey Wolf Optimizer (BGWO) for the selection of optimal channels in an Electroencephalogram (EEG) dataset used for person identification. The artificial EEG dataset is loaded from a CSV file, and the objective function combines multiple performance metrics, including accuracy, F1-score, recall, and specificity. The BGWO algorithm optimizes the selection of EEG channels by minimizing the negative combination of these metrics. The support vector machine (SVM) classifier with a radial basis function (RBF) kernel is employed for person identification. The project aims to efficiently identify the most relevant EEG channels while achieving high classification performance.
+   - This project implements a Binary Grey Wolf Optimizer (BGWO) to intelligently select optimal channels in an Electroencephalogram (EEG) dataset for effective person identification. The artificial EEG dataset is loaded from a CSV file, and the objective function combines key performance metrics such as accuracy, F1-score, recall, and specificity. The BGWO algorithm optimizes the selection of EEG channels by minimizing the negative combination of these metrics. Employing a support vector machine (SVM) classifier with a radial basis function (RBF) kernel enhances the accuracy of person identification. The primary goal of the project is to efficiently identify the most relevant EEG channels, ensuring a high level of classification performance.
 
 3. **Table of Contents**
-   - Provide links to different sections in your README to make navigation easier.
+   - [Project Title](#project-title)
+   - [Project Description](#project-description)
+   - [Table of Contents](#table-of-contents)
+   - [Install Libraries](#install-libraries)
 
 4. **Install Libraries**
-pip install numpy
-pip install pandas
-pip install scikit-learn
+   - Ensure you have the necessary libraries installed by running the following commands:
+     ```bash
+     pip install numpy
+     pip install pandas
+     pip install scikit-learn
+     ```
