@@ -42,8 +42,3 @@ pip install scikit-learn
 
 **Execution Script:**
 - The main script sets parameters, loads artificial EEG data, initializes the SVM classifier, runs the BGWO optimizer, and prints the results—specifically, the selected channels and their corresponding performance.
-
-Please use this updated format in your GitHub README, and the links should work correctly.
-
-**Execution Script:**
-- The main script sets parameters, loads artificial EEG data, initializes the SVM classifier, runs the BGWO optimizer, and prints the results—specifically, the selected channels and their corresponding performance.
