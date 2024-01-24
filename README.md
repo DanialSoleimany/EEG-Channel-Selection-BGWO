@@ -1,4 +1,4 @@
-![GWO Image](https://github.com/DanialSoleimany/EEG-Channel-Selection-BGWO/raw/main/GWO.jpg | width=200)
+![GWO Image](https://github.com/DanialSoleimany/EEG-Channel-Selection-BGWO/raw/main/GWO.jpg)
 
 
 **Title:**
