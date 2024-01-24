@@ -15,26 +15,28 @@
 7. [Initialize Population](#initialize-population)
 8. [Execution Script](#execution-script)
 
-- **Install Libraries:**
-  - Execute these commands in the terminal to install essential libraries—numpy, pandas, and scikit-learn.
+**Install Libraries:**
+pip install numpy
+pip install pandas
+pip install scikit-learn
 
-- **Import Libraries:**
-  - Import statements are used to bring in necessary Python libraries for data manipulation, machine learning, and performance metric evaluation.
+**Import Libraries:**
+- Import statements are used to bring in necessary Python libraries for data manipulation, machine learning, and performance metric evaluation.
 
-- **Load Data:**
-  - The data loading step involves reading an artificial EEG dataset from a CSV file and extracting features (X) and labels (y) for subsequent analysis.
+**Load Data:**
+- The data loading step involves reading an artificial EEG dataset from a CSV file and extracting features (X) and labels (y) for subsequent analysis.
 
-- **Multiclass Specificity Score:**
-  - In this section, a function is defined to calculate the specificity score for multiclass classification tasks using a confusion matrix.
+**Multiclass Specificity Score:**
+- In this section, a function is defined to calculate the specificity score for multiclass classification tasks using a confusion matrix.
 
-- **Objective Function:**
-  - The objective function is pivotal for BGWO-SVM. It evaluates the performance of selected EEG channels based on accuracy, F1-score, recall, and specificity, with the aim of minimizing their negative combination.
+**Objective Function:**
+- The objective function is pivotal for BGWO-SVM. It evaluates the performance of selected EEG channels based on accuracy, F1-score, recall, and specificity, with the aim of minimizing their negative combination.
 
-- **Binary Grey Wolf Optimizer (BGWO):**
-  - This section outlines the BGWO algorithm, providing an explanation of its steps to optimize the selection of EEG channels based on the defined objective function.
+**Binary Grey Wolf Optimizer (BGWO):**
+- This section outlines the BGWO algorithm, providing an explanation of its steps to optimize the selection of EEG channels based on the defined objective function.
 
-- **Initialize Population:**
-  - The initialization function creates a random population of binary values, representing the activation or deactivation of EEG channels.
+**Initialize Population:**
+- The initialization function creates a random population of binary values, representing the activation or deactivation of EEG channels.
 
-- **Execution Script:**
-  - The main script sets parameters, loads artificial EEG data, initializes the SVM classifier, runs the BGWO optimizer, and prints the results—specifically, the selected channels and their corresponding performance.
+**Execution Script:**
+- The main script sets parameters, loads artificial EEG data, initializes the SVM classifier, runs the BGWO optimizer, and prints the results—specifically, the selected channels and their corresponding performance.
