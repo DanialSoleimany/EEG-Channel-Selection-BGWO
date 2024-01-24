@@ -1,8 +1,8 @@
-**Project Title:**
-"Enhancing Person Identification Accuracy through Optimal EEG Channel Selection using Binary Grey Wolf Algorithm"
+**Title:**
+- Enhancing Person Identification Accuracy through Optimal EEG Channel Selection using Binary Grey Wolf Algorithm
 
-**Project Description:**
-This project introduces a novel method to improve person identification accuracy by utilizing the Binary Grey Wolf Optimization (BGWO) algorithm for EEG channel selection. By strategically selecting optimal channels from an Electroencephalogram (EEG) dataset, the project aims to improve the precision of person identification. The process involves loading an artificial EEG dataset from a CSV file and creating a comprehensive objective function that combines essential performance metrics such as accuracy, F1-score, recall, and specificity. The BGWO algorithm is then applied to minimize the negative combination of these metrics, ensuring the selection of the most informative EEG channels. To further enhance accuracy, a Support Vector Machine (SVM) classifier with a radial basis function (RBF) kernel is employed for person identification. The primary goal of the project is to efficiently identify relevant EEG channels, ultimately achieving superior classification performance.
+**Description:**
+- This project introduces a novel method to improve person identification accuracy by utilizing the Binary Grey Wolf Optimization (BGWO) algorithm for EEG channel selection. By strategically selecting optimal channels from an Electroencephalogram (EEG) dataset, the project aims to improve the precision of person identification. The process involves loading an artificial EEG dataset from a CSV file and creating a comprehensive objective function that combines essential performance metrics such as accuracy, F1-score, recall, and specificity. The BGWO algorithm is then applied to minimize the negative combination of these metrics, ensuring the selection of the most informative EEG channels. To further enhance accuracy, a Support Vector Machine (SVM) classifier with a radial basis function (RBF) kernel is employed for person identification. The primary goal of the project is to efficiently identify relevant EEG channels, ultimately achieving superior classification performance.
 
 **Table of Contents:**
 
