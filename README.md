@@ -1,8 +1,8 @@
 **Project Title:**
-"Optimizing EEG Channel Selection for Enhanced Person Identification using Binary Grey Wolf Algorithm"
+"Enhancing Person Identification Accuracy through Optimal EEG Channel Selection using Binary Grey Wolf Algorithm"
 
 **Project Description:**
-This project introduces an innovative approach to improving person identification accuracy by leveraging the Binary Grey Wolf Optimization (BGWO) algorithm for EEG channel selection. By intelligently choosing optimal channels in an Electroencephalogram (EEG) dataset, the project aims to enhance the precision of person identification. The process involves loading an artificial EEG dataset from a CSV file and formulating a comprehensive objective function that amalgamates crucial performance metrics, including accuracy, F1-score, recall, and specificity. The BGWO algorithm is then employed to minimize the negative combination of these metrics, ensuring the selection of the most informative EEG channels. To further enhance accuracy, a Support Vector Machine (SVM) classifier with a radial basis function (RBF) kernel is utilized for person identification. The project's primary goal is to efficiently identify relevant EEG channels, ultimately achieving superior classification performance.
+This project introduces a novel method to improve person identification accuracy by utilizing the Binary Grey Wolf Optimization (BGWO) algorithm for EEG channel selection. By strategically selecting optimal channels from an Electroencephalogram (EEG) dataset, the project aims to improve the precision of person identification. The process involves loading an artificial EEG dataset from a CSV file and creating a comprehensive objective function that combines essential performance metrics such as accuracy, F1-score, recall, and specificity. The BGWO algorithm is then applied to minimize the negative combination of these metrics, ensuring the selection of the most informative EEG channels. To further enhance accuracy, a Support Vector Machine (SVM) classifier with a radial basis function (RBF) kernel is employed for person identification. The primary goal of the project is to efficiently identify relevant EEG channels, ultimately achieving superior classification performance.
 
 **Table of Contents:**
 
@@ -16,26 +16,22 @@ This project introduces an innovative approach to improving person identificatio
 8. [Execution Script](#execution-script)
 
 - **Install Libraries:**
-  ```Terminal
-  pip install numpy
-  pip install pandas
-  pip install scikit-learn
-  ```
+  - Execute these commands in the terminal to install essential libraries—numpy, pandas, and scikit-learn.
 
 - **Import Libraries:**
-  - Import statements bring in essential Python libraries for data manipulation, machine learning, and performance metric evaluation.
+  - Import statements are used to bring in necessary Python libraries for data manipulation, machine learning, and performance metric evaluation.
 
 - **Load Data:**
-  - Data loading involves reading an artificial EEG dataset from a CSV file, extracting features (X) and labels (y) for subsequent analysis.
+  - The data loading step involves reading an artificial EEG dataset from a CSV file and extracting features (X) and labels (y) for subsequent analysis.
 
 - **Multiclass Specificity Score:**
-  - This section defines a function to calculate the specificity score for multiclass classification tasks using a confusion matrix.
+  - In this section, a function is defined to calculate the specificity score for multiclass classification tasks using a confusion matrix.
 
 - **Objective Function:**
-  - The objective function is crucial for BGWO-SVM. It evaluates the performance of selected EEG channels based on accuracy, F1-score, recall, and specificity, aiming to minimize the negative combination of these metrics.
+  - The objective function is pivotal for BGWO-SVM. It evaluates the performance of selected EEG channels based on accuracy, F1-score, recall, and specificity, with the aim of minimizing their negative combination.
 
 - **Binary Grey Wolf Optimizer (BGWO):**
-  - This section outlines the BGWO algorithm, explaining its steps for optimizing the selection of EEG channels based on the defined objective function.
+  - This section outlines the BGWO algorithm, providing an explanation of its steps to optimize the selection of EEG channels based on the defined objective function.
 
 - **Initialize Population:**
   - The initialization function creates a random population of binary values, representing the activation or deactivation of EEG channels.
